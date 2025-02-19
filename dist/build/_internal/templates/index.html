@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哔哩哔哩直播音效设置</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #00a1d6;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="file"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .sound-mapping {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .sound-mapping h2 {
+            color: #00a1d6;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #00a1d6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0091c2;
+        }
+        .status {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .current-sounds {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .sound-file {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+            margin: 5px 0;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .sound-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .test-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .test-btn:hover {
+            background-color: #218838;
+        }
+        .volume-slider {
+            width: 100px;
+            margin: 0 10px;
+        }
+        .delete-btn {
+            background-color: #dc3545;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>哔哩哔哩直播音效设置</h1>
+        <form id="settingsForm" method="POST" action="/save-settings" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="idCode">主播身份码：</label>
+                <input type="text" id="idCode" name="idCode" value="{{ config.idCode }}" placeholder="请输入您的直播间ID">
+            </div>
+
+            <div class="sound-mapping">
+                <h2>点赞音效</h2>
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <label style="display: inline-flex; align-items: center;">
+                        <input type="checkbox" name="multiLikeEnabled" id="multiLikeEnabled" {% if config.get('multiLikeEnabled', True) %}checked{% endif %} style="margin-right: 8px;">
+                        启用多重点赞音效（每次点赞播放对应次数的音效）
+                    </label>
+                </div>
+                <input type="file" name="likeSound" accept=".wav" multiple>
+                <div class="current-sounds" id="likeSoundFiles">
+                    {% for sound in config.soundMappings.likeSound %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'likeSound')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="sound-mapping">
+                <h2>礼物音效（10电池以下）</h2>
+                <input type="file" name="giftSound1" accept=".wav" multiple>
+                <div class="current-sounds" id="giftSound1Files">
+                    {% for sound in config.soundMappings.giftSound1 %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'giftSound1')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="sound-mapping">
+                <h2>礼物音效（10-100电池）</h2>
+                <input type="file" name="giftSound2" accept=".wav" multiple>
+                <div class="current-sounds" id="giftSound2Files">
+                    {% for sound in config.soundMappings.giftSound2 %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'giftSound2')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="sound-mapping">
+                <h2>礼物音效（100电池以上）</h2>
+                <input type="file" name="giftSound3" accept=".wav" multiple>
+                <div class="current-sounds" id="giftSound3Files">
+                    {% for sound in config.soundMappings.giftSound3 %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'giftSound3')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="sound-mapping">
+                <h2>弹幕音效</h2>
+                <input type="file" name="messageSound" accept=".wav" multiple>
+                <div class="current-sounds" id="messageSoundFiles">
+                    {% for sound in config.soundMappings.messageSound %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'messageSound')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="sound-mapping">
+                <h2>醒目留言音效</h2>
+                <input type="file" name="superChatSound" accept=".wav" multiple>
+                <div class="current-sounds" id="superChatSoundFiles">
+                    {% for sound in config.soundMappings.superChatSound %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'superChatSound')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="sound-mapping">
+                <h2>大航海音效</h2>
+                <input type="file" name="guardSound" accept=".wav" multiple>
+                <div class="current-sounds" id="guardSoundFiles">
+                    {% for sound in config.soundMappings.guardSound %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'guardSound')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="sound-mapping">
+                <h2>进入直播间音效</h2>
+                <input type="file" name="enterSound" accept=".wav" multiple>
+                <div class="current-sounds" id="enterSoundFiles">
+                    {% for sound in config.soundMappings.enterSound %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'enterSound')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="sound-mapping">
+                <h2>关注音效</h2>
+                <input type="file" name="followSound" accept=".wav" multiple>
+                <div class="current-sounds" id="followSoundFiles">
+                    {% for sound in config.soundMappings.followSound %}
+                    <div class="sound-file">
+                        <span>{{ sound }}</span>
+                        <div class="sound-controls">
+                            <input type="range" class="volume-slider" min="0" max="100" value="{{ config.volumeSettings.get(sound, 100) }}" oninput="updateVolume(this)">
+                            <button type="button" class="test-btn" onclick="testSound('{{ sound }}')">试听</button>
+                            <button type="button" class="delete-btn" onclick="deleteSound('{{ sound }}', 'followSound')">删除</button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <button type="submit">保存设置</button>
+        </form>
+
+        <div id="status" style="display: none;"></div>
+    </div>
+
+    <script>
+        document.getElementById('settingsForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+
+            // Add volume settings to form data
+            document.querySelectorAll('.sound-file').forEach(soundFile => {
+                const filename = soundFile.querySelector('span').textContent;
+                const volume = soundFile.querySelector('.volume-slider').value;
+                formData.append('volumes', JSON.stringify({
+                    filename: filename,
+                    volume: volume
+                }));
+            });
+
+            fetch('/save-settings', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                var statusDiv = document.getElementById('status');
+                statusDiv.style.display = 'block';
+                statusDiv.textContent = data.message;
+                statusDiv.className = 'status ' + (data.success ? 'success' : 'error');
+                if (data.success) {
+                    setTimeout(function() {
+                        location.reload();
+                    }, 1000);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                var statusDiv = document.getElementById('status');
+                statusDiv.style.display = 'block';
+                statusDiv.textContent = '保存设置时发生错误';
+                statusDiv.className = 'status error';
+            });
+        });
+
+        let currentAudio = null;
+
+        function testSound(filename) {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio = null;
+            }
+            const audio = new Audio(`/sound/${filename}`);
+            const volumeSlider = event.target.parentElement.querySelector('.volume-slider');
+            audio.volume = parseFloat(volumeSlider.value) / 100;
+            audio.play();
+            currentAudio = audio;
+        }
+
+        function updateVolume(slider) {
+            const soundFile = slider.closest('.sound-file');
+            const filename = soundFile.querySelector('span').textContent;
+            if (currentAudio) {
+                currentAudio.volume = parseFloat(slider.value) / 100;
+            }
+            // Save volume setting
+            fetch('/save-volume', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    filename: filename,
+                    volume: slider.value
+                })
+            });
+        }
+
+        function deleteSound(filename, soundType) {
+            if (!confirm('确定要删除这个音效文件吗？')) {
+                return;
+            }
+
+            fetch('/delete-sound', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    filename: filename,
+                    soundType: soundType
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    location.reload();
+                } else {
+                    alert('删除文件失败：' + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('删除文件时发生错误');
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+('C:\\Users\\Mobius Yu\\Desktop\\py-demo-new\\build\\build\\app.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Mobius Yu\\Desktop\\py-demo-new\\build\\build\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\build\\build\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\build\\build\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\build\\build\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\build\\build\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\build\\build\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('app', 'C:\\Users\\Mobius Yu\\Desktop\\py-demo-new\\app.py', 'PYSOURCE')],
+ 'python313.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
