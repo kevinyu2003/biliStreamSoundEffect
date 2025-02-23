@@ -144,7 +144,7 @@
                         启用多重点赞音效（每次点赞播放对应次数的音效）
                     </label>
                 </div>
-                <input type="file" name="likeSound" accept=".wav" multiple>
+                <input type="file" name="likeSound" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="likeSoundFiles">
                     {% for sound in config.soundMappings.likeSound %}
                     <div class="sound-file">
@@ -161,7 +161,7 @@
 
             <div class="sound-mapping">
                 <h2>礼物音效（10电池以下）</h2>
-                <input type="file" name="giftSound1" accept=".wav" multiple>
+                <input type="file" name="giftSound1" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="giftSound1Files">
                     {% for sound in config.soundMappings.giftSound1 %}
                     <div class="sound-file">
@@ -178,7 +178,7 @@
 
             <div class="sound-mapping">
                 <h2>礼物音效（10-100电池）</h2>
-                <input type="file" name="giftSound2" accept=".wav" multiple>
+                <input type="file" name="giftSound2" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="giftSound2Files">
                     {% for sound in config.soundMappings.giftSound2 %}
                     <div class="sound-file">
@@ -195,7 +195,7 @@
 
             <div class="sound-mapping">
                 <h2>礼物音效（100电池以上）</h2>
-                <input type="file" name="giftSound3" accept=".wav" multiple>
+                <input type="file" name="giftSound3" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="giftSound3Files">
                     {% for sound in config.soundMappings.giftSound3 %}
                     <div class="sound-file">
@@ -212,7 +212,7 @@
 
             <div class="sound-mapping">
                 <h2>弹幕音效</h2>
-                <input type="file" name="messageSound" accept=".wav" multiple>
+                <input type="file" name="messageSound" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="messageSoundFiles">
                     {% for sound in config.soundMappings.messageSound %}
                     <div class="sound-file">
@@ -229,7 +229,7 @@
 
             <div class="sound-mapping">
                 <h2>醒目留言音效</h2>
-                <input type="file" name="superChatSound" accept=".wav" multiple>
+                <input type="file" name="superChatSound" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="superChatSoundFiles">
                     {% for sound in config.soundMappings.superChatSound %}
                     <div class="sound-file">
@@ -246,7 +246,7 @@
 
             <div class="sound-mapping">
                 <h2>大航海音效</h2>
-                <input type="file" name="guardSound" accept=".wav" multiple>
+                <input type="file" name="guardSound" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="guardSoundFiles">
                     {% for sound in config.soundMappings.guardSound %}
                     <div class="sound-file">
@@ -263,7 +263,7 @@
 
             <div class="sound-mapping">
                 <h2>进入直播间音效</h2>
-                <input type="file" name="enterSound" accept=".wav" multiple>
+                <input type="file" name="enterSound" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="enterSoundFiles">
                     {% for sound in config.soundMappings.enterSound %}
                     <div class="sound-file">
@@ -280,7 +280,7 @@
 
             <div class="sound-mapping">
                 <h2>关注音效</h2>
-                <input type="file" name="followSound" accept=".wav" multiple>
+                <input type="file" name="followSound" accept=".wav,.mp3" multiple>
                 <div class="current-sounds" id="followSoundFiles">
                     {% for sound in config.soundMappings.followSound %}
                     <div class="sound-file">
@@ -302,9 +302,36 @@
     </div>
 
     <script>
+        let selectedFiles = {};
+
+        // Add event listeners to all file inputs
+        document.querySelectorAll('input[type="file"]').forEach(input => {
+            input.addEventListener('change', function(e) {
+                // Store the selected files for this input
+                selectedFiles[this.name] = Array.from(this.files);
+            });
+        });
+
         document.getElementById('settingsForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            var formData = new FormData(this);
+            var formData = new FormData();
+
+            // Add ID code
+            formData.append('idCode', document.getElementById('idCode').value);
+            
+            // Add multiLikeEnabled setting
+            formData.append('multiLikeEnabled', document.getElementById('multiLikeEnabled').checked);
+
+            // Add all stored files to the form data
+            document.querySelectorAll('input[type="file"]').forEach(input => {
+                if (input.files.length > 0) {
+                    Array.from(input.files).forEach(file => {
+                        if (file.type === 'audio/wav' || file.type === 'audio/mpeg' || file.type === 'audio/mp3') {
+                            formData.append(input.name, file);
+                        }
+                    });
+                }
+            });
 
             // Add volume settings to form data
             document.querySelectorAll('.sound-file').forEach(soundFile => {

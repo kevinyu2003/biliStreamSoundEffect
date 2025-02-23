@@ -45,11 +45,18 @@ class SoundManager:
         
         # Load configuration
         self.config = load_config()
+        self.reload_config()
+
+    def reload_config(self):
+        """Reload configuration and update settings"""
+        self.config = load_config()
         sound_mappings = self.config['soundMappings']
         self.volume_settings = self.config.get('volumeSettings', {})
         
         # Audio file mappings with absolute paths
         self.audio_files = {}
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        
         for key, files in sound_mappings.items():
             event_key = key.replace('Sound', '').lower()
             if isinstance(files, list):
@@ -126,7 +133,7 @@ class SoundManager:
         except Exception as e:
             print(f"Error initializing output stream: {e}")
 
-    def play_audio(self, key, volume=0.5):
+    def play_audio(self, key, volume=1):
         """Play an audio file with the specified key and volume"""
         if key not in self.audio_data or not self.audio_data[key]:
             # Just log a debug message and return silently
@@ -202,7 +209,6 @@ class SoundManager:
             # Write to output buffer
             outdata[:, 0] = mixed_data
 
-# 该示例仅为demo，如需使用在生产环境需要自行按需调整
 
 class BiliClient:
     def __init__(self, idCode, appId, key, secret, host):
@@ -212,6 +218,7 @@ class BiliClient:
         self.secret = secret
         self.host = host
         self.gameId = ''
+        self.config = load_config()  # Load configuration during initialization
         self.sound_manager = SoundManager()
         pass
 
@@ -344,8 +351,6 @@ class BiliClient:
                                     for _ in range(count):
                                         self.sound_manager.play_audio('like')
                                         await asyncio.sleep(1.2)  # Shorter delay for better overlap
-                                    else:
-                                        self.sound_manager.play_audio('like')
                                 # Schedule the task without waiting
                                 asyncio.create_task(play_like_sounds(like_count))
                                 print(f"[BiliClient] Received like command from user {user_id}")
@@ -415,7 +420,7 @@ if __name__ == '__main__':
     try:
         cli = BiliClient(
             idCode=idCode,  # Read from config
-            appId=1739119457541,  # 应用id
+            appId=1740051020209,  # 应用id
             key="UIITOOvJBq2L3qSe0RPULFSt",  # access_key
             secret="ucBpEQejW1bd5n9PpcuZ9FFHIoIrjq",  # access_key_secret
             host="https://live-open.biliapi.com") # 开放平台 (线上环境)

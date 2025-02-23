@@ -35,7 +35,8 @@ def load_config():
             'enterSound': ['Enter.wav'],
             'followSound': ['Follow.wav']
         },
-        'volumeSettings': {}
+        'volumeSettings': {},
+        'multiLikeEnabled': True
     }
 
 # Save configuration
@@ -95,7 +96,7 @@ def save_settings():
         
         # Update idCode and multiLikeEnabled
         config['idCode'] = request.form.get('idCode', '')
-        config['multiLikeEnabled'] = request.form.get('multiLikeEnabled') == 'on'
+        config['multiLikeEnabled'] = request.form.get('multiLikeEnabled') == 'true'
         
         # Get current sound mappings from config
         sound_mappings = config.get('soundMappings', {})
@@ -186,10 +187,15 @@ def save_volume():
 browser_opened = False
 
 def open_browser():
-    webbrowser.open('http://127.0.0.1:5000/')
+    global browser_opened
+    if not browser_opened:
+        # Check if this is the main process
+        if os.environ.get('WERKZEUG_RUN_MAIN') != 'true':
+            webbrowser.open('http://127.0.0.1:5000/')
+            browser_opened = True
 
 
 if __name__ == '__main__':
-    import threading
-    threading.Timer(1.5, open_browser).start()
-    app.run(debug=True)
+    open_browser()
+    app.run(debug=False)
+    

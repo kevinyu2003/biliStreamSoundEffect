@@ -1,4 +1,5 @@
-('C:\\Users\\Mobius Yu\\Desktop\\py-demo-new\\build\\build\\PYZ-01.pyz',
+('C:\\Users\\Mobius '
+ 'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\build\\build\\PYZ-01.pyz',
  [('__future__', 'C:\\Python313\\Lib\\__future__.py', 'PYMODULE'),
   ('_aix_support', 'C:\\Python313\\Lib\\_aix_support.py', 'PYMODULE'),
   ('_colorize', 'C:\\Python313\\Lib\\_colorize.py', 'PYMODULE'),
@@ -13,19 +14,19 @@
   ('_pyrepl.pager', 'C:\\Python313\\Lib\\_pyrepl\\pager.py', 'PYMODULE'),
   ('_sounddevice',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\_sounddevice.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\_sounddevice.py',
    'PYMODULE'),
   ('_sounddevice_data',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\_sounddevice_data\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\_sounddevice_data\\__init__.py',
    'PYMODULE'),
   ('_soundfile',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\_soundfile.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\_soundfile.py',
    'PYMODULE'),
   ('_soundfile_data',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\_soundfile_data\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\_soundfile_data\\__init__.py',
    'PYMODULE'),
   ('_strptime', 'C:\\Python313\\Lib\\_strptime.py', 'PYMODULE'),
   ('_threading_local', 'C:\\Python313\\Lib\\_threading_local.py', 'PYMODULE'),
@@ -106,70 +107,70 @@
   ('calendar', 'C:\\Python313\\Lib\\calendar.py', 'PYMODULE'),
   ('certifi',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\certifi\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\certifi\\__init__.py',
    'PYMODULE'),
   ('certifi.core',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\certifi\\core.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\certifi\\core.py',
    'PYMODULE'),
   ('charset_normalizer',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\charset_normalizer\\__init__.py',
    'PYMODULE'),
   ('charset_normalizer.api',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\charset_normalizer\\api.py',
    'PYMODULE'),
   ('charset_normalizer.cd',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\charset_normalizer\\cd.py',
    'PYMODULE'),
   ('charset_normalizer.constant',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\charset_normalizer\\constant.py',
    'PYMODULE'),
   ('charset_normalizer.legacy',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\charset_normalizer\\legacy.py',
    'PYMODULE'),
   ('charset_normalizer.models',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\charset_normalizer\\models.py',
    'PYMODULE'),
   ('charset_normalizer.utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\charset_normalizer\\utils.py',
    'PYMODULE'),
   ('charset_normalizer.version',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\charset_normalizer\\version.py',
    'PYMODULE'),
   ('cmd', 'C:\\Python313\\Lib\\cmd.py', 'PYMODULE'),
   ('code', 'C:\\Python313\\Lib\\code.py', 'PYMODULE'),
   ('codeop', 'C:\\Python313\\Lib\\codeop.py', 'PYMODULE'),
   ('colorama',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\colorama\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\colorama\\__init__.py',
    'PYMODULE'),
   ('colorama.ansi',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\colorama\\ansi.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\colorama\\ansi.py',
    'PYMODULE'),
   ('colorama.ansitowin32',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\colorama\\ansitowin32.py',
    'PYMODULE'),
   ('colorama.initialise',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\colorama\\initialise.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\colorama\\initialise.py',
    'PYMODULE'),
   ('colorama.win32',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\colorama\\win32.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\colorama\\win32.py',
    'PYMODULE'),
   ('colorama.winterm',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\colorama\\winterm.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\colorama\\winterm.py',
    'PYMODULE'),
   ('concurrent', 'C:\\Python313\\Lib\\concurrent\\__init__.py', 'PYMODULE'),
   ('concurrent.futures',
@@ -261,27 +262,27 @@
   ('http.server', 'C:\\Python313\\Lib\\http\\server.py', 'PYMODULE'),
   ('idna',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\idna\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\idna\\__init__.py',
    'PYMODULE'),
   ('idna.core',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\idna\\core.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\idna\\core.py',
    'PYMODULE'),
   ('idna.idnadata',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\idna\\idnadata.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\idna\\idnadata.py',
    'PYMODULE'),
   ('idna.intranges',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\idna\\intranges.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\idna\\intranges.py',
    'PYMODULE'),
   ('idna.package_data',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\idna\\package_data.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\idna\\package_data.py',
    'PYMODULE'),
   ('idna.uts46data',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\idna\\uts46data.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\idna\\uts46data.py',
    'PYMODULE'),
   ('importlib', 'C:\\Python313\\Lib\\importlib\\__init__.py', 'PYMODULE'),
   ('importlib._abc', 'C:\\Python313\\Lib\\importlib\\_abc.py', 'PYMODULE'),
@@ -351,11 +352,11 @@
   ('lzma', 'C:\\Python313\\Lib\\lzma.py', 'PYMODULE'),
   ('markupsafe',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\markupsafe\\__init__.py',
    'PYMODULE'),
   ('markupsafe._native',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\markupsafe\\_native.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\markupsafe\\_native.py',
    'PYMODULE'),
   ('mimetypes', 'C:\\Python313\\Lib\\mimetypes.py', 'PYMODULE'),
   ('multiprocessing',
@@ -432,564 +433,564 @@
   ('numbers', 'C:\\Python313\\Lib\\numbers.py', 'PYMODULE'),
   ('numpy',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\__init__.py',
    'PYMODULE'),
   ('numpy.__config__',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\__config__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\__config__.py',
    'PYMODULE'),
   ('numpy._array_api_info',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_array_api_info.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_array_api_info.py',
    'PYMODULE'),
   ('numpy._core',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\__init__.py',
    'PYMODULE'),
   ('numpy._core._add_newdocs',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py',
    'PYMODULE'),
   ('numpy._core._add_newdocs_scalars',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py',
    'PYMODULE'),
   ('numpy._core._asarray',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_asarray.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_asarray.py',
    'PYMODULE'),
   ('numpy._core._dtype',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_dtype.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_dtype.py',
    'PYMODULE'),
   ('numpy._core._dtype_ctypes',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py',
    'PYMODULE'),
   ('numpy._core._exceptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_exceptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_exceptions.py',
    'PYMODULE'),
   ('numpy._core._internal',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_internal.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_internal.py',
    'PYMODULE'),
   ('numpy._core._machar',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_machar.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_machar.py',
    'PYMODULE'),
   ('numpy._core._methods',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_methods.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_methods.py',
    'PYMODULE'),
   ('numpy._core._string_helpers',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_string_helpers.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_string_helpers.py',
    'PYMODULE'),
   ('numpy._core._type_aliases',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_type_aliases.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_type_aliases.py',
    'PYMODULE'),
   ('numpy._core._ufunc_config',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\_ufunc_config.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\_ufunc_config.py',
    'PYMODULE'),
   ('numpy._core.arrayprint',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\arrayprint.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\arrayprint.py',
    'PYMODULE'),
   ('numpy._core.defchararray',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\defchararray.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\defchararray.py',
    'PYMODULE'),
   ('numpy._core.einsumfunc',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py',
    'PYMODULE'),
   ('numpy._core.fromnumeric',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py',
    'PYMODULE'),
   ('numpy._core.function_base',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\function_base.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\function_base.py',
    'PYMODULE'),
   ('numpy._core.getlimits',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\getlimits.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\getlimits.py',
    'PYMODULE'),
   ('numpy._core.memmap',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\memmap.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\memmap.py',
    'PYMODULE'),
   ('numpy._core.multiarray',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\multiarray.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\multiarray.py',
    'PYMODULE'),
   ('numpy._core.numeric',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\numeric.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\numeric.py',
    'PYMODULE'),
   ('numpy._core.numerictypes',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\numerictypes.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\numerictypes.py',
    'PYMODULE'),
   ('numpy._core.overrides',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\overrides.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\overrides.py',
    'PYMODULE'),
   ('numpy._core.printoptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\printoptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\printoptions.py',
    'PYMODULE'),
   ('numpy._core.records',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\records.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\records.py',
    'PYMODULE'),
   ('numpy._core.shape_base',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\shape_base.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\shape_base.py',
    'PYMODULE'),
   ('numpy._core.strings',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\strings.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\strings.py',
    'PYMODULE'),
   ('numpy._core.tests', '-', 'PYMODULE'),
   ('numpy._core.tests._natype',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\tests\\_natype.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\tests\\_natype.py',
    'PYMODULE'),
   ('numpy._core.umath',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_core\\umath.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_core\\umath.py',
    'PYMODULE'),
   ('numpy._distributor_init',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_distributor_init.py',
    'PYMODULE'),
   ('numpy._expired_attrs_2_0',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_expired_attrs_2_0.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_expired_attrs_2_0.py',
    'PYMODULE'),
   ('numpy._globals',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_globals.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_globals.py',
    'PYMODULE'),
   ('numpy._pytesttester',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_pytesttester.py',
    'PYMODULE'),
   ('numpy._typing',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
    'PYMODULE'),
   ('numpy._typing._add_docstring',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
    'PYMODULE'),
   ('numpy._typing._array_like',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
    'PYMODULE'),
   ('numpy._typing._char_codes',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
    'PYMODULE'),
   ('numpy._typing._dtype_like',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
    'PYMODULE'),
   ('numpy._typing._nbit',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
    'PYMODULE'),
   ('numpy._typing._nbit_base',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_nbit_base.py',
    'PYMODULE'),
   ('numpy._typing._nested_sequence',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
    'PYMODULE'),
   ('numpy._typing._scalars',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
    'PYMODULE'),
   ('numpy._typing._shape',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
    'PYMODULE'),
   ('numpy._typing._ufunc',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_typing\\_ufunc.py',
    'PYMODULE'),
   ('numpy._utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_utils\\__init__.py',
    'PYMODULE'),
   ('numpy._utils._convertions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_utils\\_convertions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_utils\\_convertions.py',
    'PYMODULE'),
   ('numpy._utils._inspect',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\_utils\\_inspect.py',
    'PYMODULE'),
   ('numpy.char',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\char\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\char\\__init__.py',
    'PYMODULE'),
   ('numpy.core',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\core\\__init__.py',
    'PYMODULE'),
   ('numpy.core._utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\core\\_utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\core\\_utils.py',
    'PYMODULE'),
   ('numpy.ctypeslib',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\ctypeslib.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\ctypeslib.py',
    'PYMODULE'),
   ('numpy.dtypes',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\dtypes.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\dtypes.py',
    'PYMODULE'),
   ('numpy.exceptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\exceptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\exceptions.py',
    'PYMODULE'),
   ('numpy.f2py',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\__init__.py',
    'PYMODULE'),
   ('numpy.f2py.__version__',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\__version__.py',
    'PYMODULE'),
   ('numpy.f2py._backends',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py',
    'PYMODULE'),
   ('numpy.f2py._backends._backend',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py',
    'PYMODULE'),
   ('numpy.f2py._backends._distutils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py',
    'PYMODULE'),
   ('numpy.f2py._backends._meson',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py',
    'PYMODULE'),
   ('numpy.f2py._isocbind',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\_isocbind.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\_isocbind.py',
    'PYMODULE'),
   ('numpy.f2py.auxfuncs',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
    'PYMODULE'),
   ('numpy.f2py.capi_maps',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\capi_maps.py',
    'PYMODULE'),
   ('numpy.f2py.cb_rules',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\cb_rules.py',
    'PYMODULE'),
   ('numpy.f2py.cfuncs',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\cfuncs.py',
    'PYMODULE'),
   ('numpy.f2py.common_rules',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\common_rules.py',
    'PYMODULE'),
   ('numpy.f2py.crackfortran',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\crackfortran.py',
    'PYMODULE'),
   ('numpy.f2py.diagnose',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\diagnose.py',
    'PYMODULE'),
   ('numpy.f2py.f2py2e',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py',
    'PYMODULE'),
   ('numpy.f2py.f90mod_rules',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
    'PYMODULE'),
   ('numpy.f2py.func2subr',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\func2subr.py',
    'PYMODULE'),
   ('numpy.f2py.rules',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\rules.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\rules.py',
    'PYMODULE'),
   ('numpy.f2py.symbolic',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\symbolic.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\symbolic.py',
    'PYMODULE'),
   ('numpy.f2py.use_rules',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\f2py\\use_rules.py',
    'PYMODULE'),
   ('numpy.fft',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\fft\\__init__.py',
    'PYMODULE'),
   ('numpy.fft._helper',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\fft\\_helper.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\fft\\_helper.py',
    'PYMODULE'),
   ('numpy.fft._pocketfft',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
    'PYMODULE'),
   ('numpy.fft.helper',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\fft\\helper.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\fft\\helper.py',
    'PYMODULE'),
   ('numpy.lib',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\__init__.py',
    'PYMODULE'),
   ('numpy.lib._array_utils_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_array_utils_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_array_utils_impl.py',
    'PYMODULE'),
   ('numpy.lib._arraypad_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_arraypad_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_arraypad_impl.py',
    'PYMODULE'),
   ('numpy.lib._arraysetops_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py',
    'PYMODULE'),
   ('numpy.lib._arrayterator_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py',
    'PYMODULE'),
   ('numpy.lib._datasource',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
    'PYMODULE'),
   ('numpy.lib._function_base_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py',
    'PYMODULE'),
   ('numpy.lib._histograms_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_histograms_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_histograms_impl.py',
    'PYMODULE'),
   ('numpy.lib._index_tricks_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_index_tricks_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_index_tricks_impl.py',
    'PYMODULE'),
   ('numpy.lib._iotools',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
    'PYMODULE'),
   ('numpy.lib._nanfunctions_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py',
    'PYMODULE'),
   ('numpy.lib._npyio_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py',
    'PYMODULE'),
   ('numpy.lib._polynomial_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py',
    'PYMODULE'),
   ('numpy.lib._scimath_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py',
    'PYMODULE'),
   ('numpy.lib._shape_base_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py',
    'PYMODULE'),
   ('numpy.lib._stride_tricks_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_stride_tricks_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_stride_tricks_impl.py',
    'PYMODULE'),
   ('numpy.lib._twodim_base_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_twodim_base_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_twodim_base_impl.py',
    'PYMODULE'),
   ('numpy.lib._type_check_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py',
    'PYMODULE'),
   ('numpy.lib._ufunclike_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py',
    'PYMODULE'),
   ('numpy.lib._utils_impl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py',
    'PYMODULE'),
   ('numpy.lib._version',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\_version.py',
    'PYMODULE'),
   ('numpy.lib.array_utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\array_utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\array_utils.py',
    'PYMODULE'),
   ('numpy.lib.format',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\format.py',
    'PYMODULE'),
   ('numpy.lib.introspect',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\introspect.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\introspect.py',
    'PYMODULE'),
   ('numpy.lib.mixins',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\mixins.py',
    'PYMODULE'),
   ('numpy.lib.npyio',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\npyio.py',
    'PYMODULE'),
   ('numpy.lib.recfunctions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\recfunctions.py',
    'PYMODULE'),
   ('numpy.lib.scimath',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\scimath.py',
    'PYMODULE'),
   ('numpy.lib.stride_tricks',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
    'PYMODULE'),
   ('numpy.linalg',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
    'PYMODULE'),
   ('numpy.linalg._linalg',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\linalg\\_linalg.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\linalg\\_linalg.py',
    'PYMODULE'),
   ('numpy.linalg.linalg',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
    'PYMODULE'),
   ('numpy.ma',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\ma\\__init__.py',
    'PYMODULE'),
   ('numpy.ma.core',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\ma\\core.py',
    'PYMODULE'),
   ('numpy.ma.extras',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\ma\\extras.py',
    'PYMODULE'),
   ('numpy.ma.mrecords',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
    'PYMODULE'),
   ('numpy.matlib',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\matlib.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\matlib.py',
    'PYMODULE'),
   ('numpy.matrixlib',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
    'PYMODULE'),
   ('numpy.matrixlib.defmatrix',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
    'PYMODULE'),
   ('numpy.polynomial',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
    'PYMODULE'),
   ('numpy.polynomial._polybase',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
    'PYMODULE'),
   ('numpy.polynomial.chebyshev',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
    'PYMODULE'),
   ('numpy.polynomial.hermite',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
    'PYMODULE'),
   ('numpy.polynomial.hermite_e',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
    'PYMODULE'),
   ('numpy.polynomial.laguerre',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
    'PYMODULE'),
   ('numpy.polynomial.legendre',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
    'PYMODULE'),
   ('numpy.polynomial.polynomial',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
    'PYMODULE'),
   ('numpy.polynomial.polyutils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
    'PYMODULE'),
   ('numpy.random',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\random\\__init__.py',
    'PYMODULE'),
   ('numpy.random._pickle',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\random\\_pickle.py',
    'PYMODULE'),
   ('numpy.rec',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\rec\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\rec\\__init__.py',
    'PYMODULE'),
   ('numpy.strings',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\strings\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\strings\\__init__.py',
    'PYMODULE'),
   ('numpy.testing',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\testing\\__init__.py',
    'PYMODULE'),
   ('numpy.testing._private',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
    'PYMODULE'),
   ('numpy.testing._private.extbuild',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
    'PYMODULE'),
   ('numpy.testing._private.utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
    'PYMODULE'),
   ('numpy.testing.overrides',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\testing\\overrides.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\testing\\overrides.py',
    'PYMODULE'),
   ('numpy.typing',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\typing\\__init__.py',
    'PYMODULE'),
   ('numpy.version',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\numpy\\version.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy\\version.py',
    'PYMODULE'),
   ('opcode', 'C:\\Python313\\Lib\\opcode.py', 'PYMODULE'),
   ('pathlib', 'C:\\Python313\\Lib\\pathlib\\__init__.py', 'PYMODULE'),
@@ -1000,7 +1001,9 @@
   ('pkgutil', 'C:\\Python313\\Lib\\pkgutil.py', 'PYMODULE'),
   ('platform', 'C:\\Python313\\Lib\\platform.py', 'PYMODULE'),
   ('pprint', 'C:\\Python313\\Lib\\pprint.py', 'PYMODULE'),
-  ('proto', 'C:\\Users\\Mobius Yu\\Desktop\\py-demo-new\\proto.py', 'PYMODULE'),
+  ('proto',
+   'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\proto.py',
+   'PYMODULE'),
   ('py_compile', 'C:\\Python313\\Lib\\py_compile.py', 'PYMODULE'),
   ('pydoc', 'C:\\Python313\\Lib\\pydoc.py', 'PYMODULE'),
   ('pydoc_data', 'C:\\Python313\\Lib\\pydoc_data\\__init__.py', 'PYMODULE'),
@@ -1012,71 +1015,71 @@
   ('random', 'C:\\Python313\\Lib\\random.py', 'PYMODULE'),
   ('requests',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\__init__.py',
    'PYMODULE'),
   ('requests.__version__',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\__version__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\__version__.py',
    'PYMODULE'),
   ('requests._internal_utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\_internal_utils.py',
    'PYMODULE'),
   ('requests.adapters',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\adapters.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\adapters.py',
    'PYMODULE'),
   ('requests.api',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\api.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\api.py',
    'PYMODULE'),
   ('requests.auth',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\auth.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\auth.py',
    'PYMODULE'),
   ('requests.certs',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\certs.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\certs.py',
    'PYMODULE'),
   ('requests.compat',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\compat.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\compat.py',
    'PYMODULE'),
   ('requests.cookies',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\cookies.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\cookies.py',
    'PYMODULE'),
   ('requests.exceptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\exceptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\exceptions.py',
    'PYMODULE'),
   ('requests.hooks',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\hooks.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\hooks.py',
    'PYMODULE'),
   ('requests.models',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\models.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\models.py',
    'PYMODULE'),
   ('requests.packages',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\packages.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\packages.py',
    'PYMODULE'),
   ('requests.sessions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\sessions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\sessions.py',
    'PYMODULE'),
   ('requests.status_codes',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\status_codes.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\status_codes.py',
    'PYMODULE'),
   ('requests.structures',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\structures.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\structures.py',
    'PYMODULE'),
   ('requests.utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\requests\\utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\requests\\utils.py',
    'PYMODULE'),
   ('rlcompleter', 'C:\\Python313\\Lib\\rlcompleter.py', 'PYMODULE'),
   ('runpy', 'C:\\Python313\\Lib\\runpy.py', 'PYMODULE'),
@@ -1089,11 +1092,11 @@
   ('socketserver', 'C:\\Python313\\Lib\\socketserver.py', 'PYMODULE'),
   ('sounddevice',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\sounddevice.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\sounddevice.py',
    'PYMODULE'),
   ('soundfile',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\soundfile.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\soundfile.py',
    'PYMODULE'),
   ('ssl', 'C:\\Python313\\Lib\\ssl.py', 'PYMODULE'),
   ('statistics', 'C:\\Python313\\Lib\\statistics.py', 'PYMODULE'),
@@ -1112,7 +1115,7 @@
   ('typing', 'C:\\Python313\\Lib\\typing.py', 'PYMODULE'),
   ('typing_extensions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions.py',
    'PYMODULE'),
   ('unittest', 'C:\\Python313\\Lib\\unittest\\__init__.py', 'PYMODULE'),
   ('unittest._log', 'C:\\Python313\\Lib\\unittest\\_log.py', 'PYMODULE'),
@@ -1134,513 +1137,513 @@
   ('urllib.response', 'C:\\Python313\\Lib\\urllib\\response.py', 'PYMODULE'),
   ('urllib3',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\__init__.py',
    'PYMODULE'),
   ('urllib3._base_connection',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\_base_connection.py',
    'PYMODULE'),
   ('urllib3._collections',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\_collections.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\_collections.py',
    'PYMODULE'),
   ('urllib3._request_methods',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\_request_methods.py',
    'PYMODULE'),
   ('urllib3._version',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\_version.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\_version.py',
    'PYMODULE'),
   ('urllib3.connection',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\connection.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\connection.py',
    'PYMODULE'),
   ('urllib3.connectionpool',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\connectionpool.py',
    'PYMODULE'),
   ('urllib3.contrib',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
    'PYMODULE'),
   ('urllib3.contrib.emscripten',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
    'PYMODULE'),
   ('urllib3.contrib.emscripten.connection',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
    'PYMODULE'),
   ('urllib3.contrib.emscripten.fetch',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
    'PYMODULE'),
   ('urllib3.contrib.emscripten.request',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
    'PYMODULE'),
   ('urllib3.contrib.emscripten.response',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
    'PYMODULE'),
   ('urllib3.contrib.pyopenssl',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
    'PYMODULE'),
   ('urllib3.contrib.socks',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
    'PYMODULE'),
   ('urllib3.exceptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\exceptions.py',
    'PYMODULE'),
   ('urllib3.fields',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\fields.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\fields.py',
    'PYMODULE'),
   ('urllib3.filepost',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\filepost.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\filepost.py',
    'PYMODULE'),
   ('urllib3.http2',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\http2\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\http2\\__init__.py',
    'PYMODULE'),
   ('urllib3.http2.connection',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\http2\\connection.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\http2\\connection.py',
    'PYMODULE'),
   ('urllib3.http2.probe',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\http2\\probe.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\http2\\probe.py',
    'PYMODULE'),
   ('urllib3.poolmanager',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\poolmanager.py',
    'PYMODULE'),
   ('urllib3.response',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\response.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\response.py',
    'PYMODULE'),
   ('urllib3.util',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\__init__.py',
    'PYMODULE'),
   ('urllib3.util.connection',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\connection.py',
    'PYMODULE'),
   ('urllib3.util.proxy',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\proxy.py',
    'PYMODULE'),
   ('urllib3.util.request',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\request.py',
    'PYMODULE'),
   ('urllib3.util.response',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\response.py',
    'PYMODULE'),
   ('urllib3.util.retry',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\retry.py',
    'PYMODULE'),
   ('urllib3.util.ssl_',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
    'PYMODULE'),
   ('urllib3.util.ssl_match_hostname',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
    'PYMODULE'),
   ('urllib3.util.ssltransport',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
    'PYMODULE'),
   ('urllib3.util.timeout',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\timeout.py',
    'PYMODULE'),
   ('urllib3.util.url',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\url.py',
    'PYMODULE'),
   ('urllib3.util.util',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\util.py',
    'PYMODULE'),
   ('urllib3.util.wait',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\urllib3\\util\\wait.py',
    'PYMODULE'),
   ('uuid', 'C:\\Python313\\Lib\\uuid.py', 'PYMODULE'),
   ('webbrowser', 'C:\\Python313\\Lib\\webbrowser.py', 'PYMODULE'),
   ('websockets',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\__init__.py',
    'PYMODULE'),
   ('websockets.__main__',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\__main__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\__main__.py',
    'PYMODULE'),
   ('websockets.asyncio',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\asyncio\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\asyncio\\__init__.py',
    'PYMODULE'),
   ('websockets.asyncio.async_timeout',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\asyncio\\async_timeout.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\asyncio\\async_timeout.py',
    'PYMODULE'),
   ('websockets.asyncio.client',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\asyncio\\client.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\asyncio\\client.py',
    'PYMODULE'),
   ('websockets.asyncio.compatibility',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\asyncio\\compatibility.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\asyncio\\compatibility.py',
    'PYMODULE'),
   ('websockets.asyncio.connection',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\asyncio\\connection.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\asyncio\\connection.py',
    'PYMODULE'),
   ('websockets.asyncio.messages',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\asyncio\\messages.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\asyncio\\messages.py',
    'PYMODULE'),
   ('websockets.asyncio.router',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\asyncio\\router.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\asyncio\\router.py',
    'PYMODULE'),
   ('websockets.asyncio.server',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\asyncio\\server.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\asyncio\\server.py',
    'PYMODULE'),
   ('websockets.auth',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\auth.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\auth.py',
    'PYMODULE'),
   ('websockets.client',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\client.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\client.py',
    'PYMODULE'),
   ('websockets.connection',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\connection.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\connection.py',
    'PYMODULE'),
   ('websockets.datastructures',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\datastructures.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\datastructures.py',
    'PYMODULE'),
   ('websockets.exceptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\exceptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\exceptions.py',
    'PYMODULE'),
   ('websockets.extensions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\extensions\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\extensions\\__init__.py',
    'PYMODULE'),
   ('websockets.extensions.base',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\extensions\\base.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\extensions\\base.py',
    'PYMODULE'),
   ('websockets.extensions.permessage_deflate',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\extensions\\permessage_deflate.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\extensions\\permessage_deflate.py',
    'PYMODULE'),
   ('websockets.frames',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\frames.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\frames.py',
    'PYMODULE'),
   ('websockets.headers',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\headers.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\headers.py',
    'PYMODULE'),
   ('websockets.http',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\http.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\http.py',
    'PYMODULE'),
   ('websockets.http11',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\http11.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\http11.py',
    'PYMODULE'),
   ('websockets.imports',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\imports.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\imports.py',
    'PYMODULE'),
   ('websockets.legacy',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\__init__.py',
    'PYMODULE'),
   ('websockets.legacy.auth',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\auth.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\auth.py',
    'PYMODULE'),
   ('websockets.legacy.client',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\client.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\client.py',
    'PYMODULE'),
   ('websockets.legacy.exceptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\exceptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\exceptions.py',
    'PYMODULE'),
   ('websockets.legacy.framing',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\framing.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\framing.py',
    'PYMODULE'),
   ('websockets.legacy.handshake',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\handshake.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\handshake.py',
    'PYMODULE'),
   ('websockets.legacy.http',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\http.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\http.py',
    'PYMODULE'),
   ('websockets.legacy.protocol',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\protocol.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\protocol.py',
    'PYMODULE'),
   ('websockets.legacy.server',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\legacy\\server.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\legacy\\server.py',
    'PYMODULE'),
   ('websockets.protocol',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\protocol.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\protocol.py',
    'PYMODULE'),
   ('websockets.server',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\server.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\server.py',
    'PYMODULE'),
   ('websockets.streams',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\streams.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\streams.py',
    'PYMODULE'),
   ('websockets.sync',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\sync\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\sync\\__init__.py',
    'PYMODULE'),
   ('websockets.sync.client',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\sync\\client.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\sync\\client.py',
    'PYMODULE'),
   ('websockets.sync.connection',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\sync\\connection.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\sync\\connection.py',
    'PYMODULE'),
   ('websockets.sync.messages',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\sync\\messages.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\sync\\messages.py',
    'PYMODULE'),
   ('websockets.sync.router',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\sync\\router.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\sync\\router.py',
    'PYMODULE'),
   ('websockets.sync.server',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\sync\\server.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\sync\\server.py',
    'PYMODULE'),
   ('websockets.sync.utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\sync\\utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\sync\\utils.py',
    'PYMODULE'),
   ('websockets.typing',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\typing.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\typing.py',
    'PYMODULE'),
   ('websockets.uri',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\uri.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\uri.py',
    'PYMODULE'),
   ('websockets.utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\utils.py',
    'PYMODULE'),
   ('websockets.version',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\websockets\\version.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets\\version.py',
    'PYMODULE'),
   ('werkzeug',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\__init__.py',
    'PYMODULE'),
   ('werkzeug._internal',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\_internal.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\_internal.py',
    'PYMODULE'),
   ('werkzeug._reloader',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\_reloader.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\_reloader.py',
    'PYMODULE'),
   ('werkzeug.datastructures',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py',
    'PYMODULE'),
   ('werkzeug.datastructures.accept',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\accept.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\accept.py',
    'PYMODULE'),
   ('werkzeug.datastructures.auth',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\auth.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\auth.py',
    'PYMODULE'),
   ('werkzeug.datastructures.cache_control',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\cache_control.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\cache_control.py',
    'PYMODULE'),
   ('werkzeug.datastructures.csp',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\csp.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\csp.py',
    'PYMODULE'),
   ('werkzeug.datastructures.etag',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\etag.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\etag.py',
    'PYMODULE'),
   ('werkzeug.datastructures.file_storage',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py',
    'PYMODULE'),
   ('werkzeug.datastructures.headers',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py',
    'PYMODULE'),
   ('werkzeug.datastructures.mixins',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py',
    'PYMODULE'),
   ('werkzeug.datastructures.range',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\range.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\range.py',
    'PYMODULE'),
   ('werkzeug.datastructures.structures',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py',
    'PYMODULE'),
   ('werkzeug.debug',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\debug\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\debug\\__init__.py',
    'PYMODULE'),
   ('werkzeug.debug.console',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\debug\\console.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\debug\\console.py',
    'PYMODULE'),
   ('werkzeug.debug.repr',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\debug\\repr.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\debug\\repr.py',
    'PYMODULE'),
   ('werkzeug.debug.tbtools',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py',
    'PYMODULE'),
   ('werkzeug.exceptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\exceptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\exceptions.py',
    'PYMODULE'),
   ('werkzeug.formparser',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\formparser.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\formparser.py',
    'PYMODULE'),
   ('werkzeug.http',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\http.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\http.py',
    'PYMODULE'),
   ('werkzeug.middleware',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py',
    'PYMODULE'),
   ('werkzeug.middleware.shared_data',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
    'PYMODULE'),
   ('werkzeug.routing',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\routing\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\routing\\__init__.py',
    'PYMODULE'),
   ('werkzeug.routing.converters',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\routing\\converters.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\routing\\converters.py',
    'PYMODULE'),
   ('werkzeug.routing.exceptions',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\routing\\exceptions.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\routing\\exceptions.py',
    'PYMODULE'),
   ('werkzeug.routing.map',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\routing\\map.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\routing\\map.py',
    'PYMODULE'),
   ('werkzeug.routing.matcher',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\routing\\matcher.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\routing\\matcher.py',
    'PYMODULE'),
   ('werkzeug.routing.rules',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\routing\\rules.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\routing\\rules.py',
    'PYMODULE'),
   ('werkzeug.sansio',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py',
    'PYMODULE'),
   ('werkzeug.sansio.http',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\sansio\\http.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\sansio\\http.py',
    'PYMODULE'),
   ('werkzeug.sansio.multipart',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\sansio\\multipart.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\sansio\\multipart.py',
    'PYMODULE'),
   ('werkzeug.sansio.request',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py',
    'PYMODULE'),
   ('werkzeug.sansio.response',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py',
    'PYMODULE'),
   ('werkzeug.sansio.utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\sansio\\utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\sansio\\utils.py',
    'PYMODULE'),
   ('werkzeug.security',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\security.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\security.py',
    'PYMODULE'),
   ('werkzeug.serving',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\serving.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\serving.py',
    'PYMODULE'),
   ('werkzeug.test',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\test.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\test.py',
    'PYMODULE'),
   ('werkzeug.urls',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\urls.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\urls.py',
    'PYMODULE'),
   ('werkzeug.user_agent',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\user_agent.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\user_agent.py',
    'PYMODULE'),
   ('werkzeug.utils',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\utils.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\utils.py',
    'PYMODULE'),
   ('werkzeug.wrappers',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
    'PYMODULE'),
   ('werkzeug.wrappers.request',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py',
    'PYMODULE'),
   ('werkzeug.wrappers.response',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\response.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\response.py',
    'PYMODULE'),
   ('werkzeug.wsgi',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\py-demo-new\\venv\\Lib\\site-packages\\werkzeug\\wsgi.py',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug\\wsgi.py',
    'PYMODULE'),
   ('xml', 'C:\\Python313\\Lib\\xml\\__init__.py', 'PYMODULE'),
   ('xml.parsers', 'C:\\Python313\\Lib\\xml\\parsers\\__init__.py', 'PYMODULE'),

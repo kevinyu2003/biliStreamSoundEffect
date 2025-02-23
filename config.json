@@ -1,39 +1,34 @@
 {
-    "idCode": "DUHVEJ35JNR48",
-    "volumeSettings": {
-        "Hachimi_1739928923.wav": 2,
-        "Ouye_1739928923.wav": 100,
-        "Wow_1739928923.wav": 5,
-        "Manbo1_1739928923.wav": 100,
-        "Waga_1739928923.wav": 51,
-        "Manbo1_1739928923_1739929822.wav": 8,
-        "Hachimi_1739935139.wav": 46,
-        "Wow_1739935148.wav": 63,
-        "Manbo_1739935111.wav": 41,
-        "Ouye_1739935127.wav": 4,
-        "Manbo1_1739935203.wav": 23,
-        "Waga_1739935227.wav": 5
-    },
+    "idCode": "123123",
     "soundMappings": {
         "likeSound": [
-            "Waga_1739935227.wav"
+            "Waga.wav"
         ],
         "giftSound1": [
-            "Ouye_1739935127.wav"
+            "Ouye.wav"
         ],
         "giftSound2": [
-            "Hachimi_1739935139.wav"
+            "Hachimi.wav"
         ],
         "giftSound3": [
-            "Wow_1739935148.wav"
+            "Wow.wav"
         ],
         "messageSound": [
-            "Manbo1_1739935203.wav"
+            "Manbo.wav"
         ],
-        "superChatSound": [],
-        "guardSound": [],
-        "enterSound": [],
-        "followSound": []
+        "superChatSound": [
+            "SuperChat.wav"
+        ],
+        "guardSound": [
+            "Guard.wav"
+        ],
+        "enterSound": [
+            "Enter.wav"
+        ],
+        "followSound": [
+            "Follow.wav"
+        ]
     },
-    "multiLikeEnabled": false
+    "volumeSettings": {},
+    "multiLikeEnabled": true
 }
