@@ -1,0 +1,30 @@
+{
+    "idCode": "",
+    "soundMappings": {
+        "likeSound": [
+            "Waga.wav"
+        ],
+        "giftSound1": [
+            "Ouye.wav"
+        ],
+        "giftSound2": [
+            "Hachimi.wav"
+        ],
+        "giftSound3": [
+            "Wow.wav"
+        ],
+        "messageSound": [
+            "Manbo1.wav"
+        ],
+        "superChatSound": [],
+        "guardSound": [],
+        "enterSound": [],
+        "followSound": []
+    },
+    "volumeSettings": {},
+    "multiLikeEnabled": true,
+    "probabilitySettings": {
+        "likeSound": 1.0,
+        "messageSound": 1.0
+    }
+}

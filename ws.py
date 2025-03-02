@@ -14,7 +14,8 @@ import numpy as np
 import sounddevice as sd
 import soundfile as sf
 from threading import Lock
-
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+#此代码在python样本上由莫比乌斯余XD进行修改
 CONFIG_FILE = 'config.json'
 
 def load_config():
@@ -83,18 +84,18 @@ class SoundManager:
         for key, file_paths in self.audio_files.items():
             self.audio_data[key] = []
             if not file_paths:
-                print(f"[SoundManager] Warning: No sound files configured for {key}")
+                print(f"[音频管理] 警告: 没有为 {key} 配置音效喵！没配置也能使用，只是告诉你一下喵！")
                 continue
                 
             for file_path in file_paths:
                 if not os.path.exists(file_path):
-                    print(f"[SoundManager] Warning: Sound file not found: {file_path}")
+                    print(f"[音频管理] 错误: 音频找不到喵！: {file_path}")
                     continue
                     
                 try:
                     data, fs = sf.read(file_path)
                     if data is None or len(data) == 0:
-                        print(f"[SoundManager] Error: Empty or invalid audio file: {file_path}")
+                        print(f"[音频管理] 错误：{file_path} 没有指定音频或者音频格式不对喵！")
                         continue
                         
                     # Convert to mono if stereo
@@ -115,9 +116,9 @@ class SoundManager:
                             continue
                             
                     self.audio_data[key].append(data)
-                    print(f"[SoundManager] Successfully loaded: {file_path}")
+                    print(f"[音效管理器] 成功加载: {file_path}")
                 except Exception as e:
-                    print(f"[SoundManager] Failed to load audio file {file_path}: {e}")
+                    print(f"[音效管理器] 加载音频文件失败 {file_path}: {e}")
                     continue
     
     def _initialize_output_stream(self):
@@ -131,13 +132,13 @@ class SoundManager:
             )
             self.output_stream.start()
         except Exception as e:
-            print(f"Error initializing output stream: {e}")
+            print(f"初始化输出流时发生错误: {e}")
 
     def play_audio(self, key, volume=1):
         """Play an audio file with the specified key and volume"""
         if key not in self.audio_data or not self.audio_data[key]:
             # Just log a debug message and return silently
-            print(f"[SoundManager] No sound configured for event: {key}")
+            print(f"[音效管理器] 未配置该事件的音效: {key}")
             return
 
         with self.stream_lock:
@@ -224,7 +225,8 @@ class BiliClient:
 
     # 事件循环
     def run(self):
-        loop = asyncio.get_event_loop()
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
         # 建立连接
         websocket = loop.run_until_complete(self.connect())
         tasks = [
@@ -279,7 +281,6 @@ class BiliClient:
         r = requests.post(url=postUrl, headers=headerMap,
                           data=params, verify=False)
         data = json.loads(r.content)
-        print(data)
 
         self.gameId = str(data['data']['game_info']['game_id'])
 
@@ -296,7 +297,7 @@ class BiliClient:
             r = requests.post(url=postUrl, headers=headerMap,
                           data=params, verify=False)
             data = json.loads(r.content)
-            print("[BiliClient] send appheartBeat success")
+            print("[音效姬] 心跳发送成功喵~！")
 
     # 发送鉴权信息
     async def auth(self, websocket, authBody):
@@ -309,9 +310,10 @@ class BiliClient:
         resp.unpack(buf)
         respBody = json.loads(resp.body)
         if respBody["code"] != 0:
-            print("auth 失败")
+            print("认证失败喵~！")
         else:
-            print("auth 成功")
+            print("认证成功喵~！")
+            print("音效姬由莫比乌斯余XD调教制作,有问题可以去bilibili私信莫比乌斯余XD喵~！")
 
     # 发送心跳
     async def heartBeat(self, websocket):
@@ -320,11 +322,11 @@ class BiliClient:
             req = proto.Proto()
             req.op = 2
             await websocket.send(req.pack())
-            print("[BiliClient] send heartBeat success")
+            print("[音效姬] 发送心跳成功喵~！")
 
     # 读取信息
     async def recvLoop(self, websocket):
-        print("[BiliClient] run recv...")
+        print("[音效姬] 开始接收消息喵...")
         while True:
             try:
                 recvBuf = await websocket.recv()
@@ -341,7 +343,9 @@ class BiliClient:
                             if cmd == "LIVE_OPEN_PLATFORM_LIKE" or cmd == "OPEN_LIVEROOM_LIKE": #点赞
                                 data_set = data.get("data")
                                 like_count = int(data_set.get("like_count"))
-                                user_id = data_set.get("uid", str(time.time()))  # Use timestamp as fallback if no uid
+                                user_id = data_set.get("uname", str(time.time()))  # Use timestamp as fallback if no uid
+                                # Get probability setting for like sounds
+                                like_probability = self.config.get('probabilitySettings', {}).get('likeSound', 1.0)
                                 # Create a separate task for this user's likes
                                 async def play_like_sounds(count):
                                     if not self.config.get('multiLikeEnabled', True):
@@ -349,12 +353,14 @@ class BiliClient:
                                     elif count > 5:
                                         count = 5  # Cap at 5 sounds
                                     for _ in range(count):
-                                        self.sound_manager.play_audio('like')
-                                        await asyncio.sleep(1.2)  # Shorter delay for better overlap
+                                        if random.random() < like_probability:
+                                            self.sound_manager.play_audio('like')
+                                            await asyncio.sleep(1.2)  # Shorter delay for better overlap
                                 # Schedule the task without waiting
                                 asyncio.create_task(play_like_sounds(like_count))
-                                print(f"[BiliClient] Received like command from user {user_id}")
-                                print(f"[BiliClient] Received command: {cmd}")
+                                print(f"[音效姬] 收到来自用户 {user_id} 的点赞喵~！")
+                                print(f"[音效姬] 收到指令: {cmd} 喵~！")
+                                print(f"[音效姬] 点赞触发概率: {like_probability} 喵~！")
                             elif cmd == "LIVE_OPEN_PLATFORM_SEND_GIFT": #发送礼物
                                 gift_data = data.get("data")
                                 price = int(gift_data.get("price"))
@@ -364,42 +370,49 @@ class BiliClient:
                                     self.sound_manager.play_audio("gift2")
                                 else:
                                     self.sound_manager.play_audio("gift3")
-                                print(f"[BiliClient] Received gift command: {cmd} with price {price}")
+                                print(f"[音效姬] 收到礼物指令: {cmd}, 价值 {price} 喵~！")
                             elif cmd == "LIVE_OPEN_PLATFORM_DM": #发送弹幕
-                                self.sound_manager.play_audio("message")
-                                print(f"[BiliClient] Received command: {cmd}")
+                                # Get probability setting for message sounds
+                                message_probability = self.config.get('probabilitySettings', {}).get('messageSound', 1.0)
+                                if random.random() < message_probability:
+                                    self.sound_manager.play_audio("message")
+                                print(f"[音效姬] 收到指令: {cmd} 喵~！")
+                                print(f"[音效姬] 弹幕触发概率: {message_probability}喵~！")
                             elif cmd == "OPEN_LIVEROOM_SUPER_CHAT": #醒目留言
                                 self.sound_manager.play_audio("superChat")
-                                print(f"[BiliClient] Received SuperChat")
+                                print(f"[音效姬] 收到醒目留言喵~！")
                             elif cmd == "OPEN_LIVEROOM_GUARD": #开通大航海
                                 self.sound_manager.play_audio("guard")
-                                print(f"[BiliClient] Received Guard subscription")
+                                print(f"[音效姬] 收到舰长开通喵~！")
                             elif cmd == "OPEN_LIVEROOM_LIVE_ROOM_ENTER": #进入
+                                data_set = data.get("data")
+                                user_id = data_set.get("uname", str(time.time()))  # Use timestamp as fallback if no uid
                                 self.sound_manager.play_audio("enter")
-                                print(f"[BiliClient] User entered the room")
+                                print(f"[音效姬] {user_id}进入直播间喵~！")
                             elif cmd == "OPEN_LIVEROOM_INTERACT_WORD": #关注
                                 data_obj = data.get("data", {})
                                 msg_type = data_obj.get("msg_type", 0)
                                 if msg_type == 2:  # Follow event
                                     self.sound_manager.play_audio("follow")
-                                    print(f"[BiliClient] New follower")
+                                    data_set = data.get("data")
+                                    user_id = data_set.get("uname", str(time.time()))  # Use timestamp as fallback if no 
+                                    print(f"[音效姬] 新增关注: {user_id} 喵~！")
                     except Exception as e:
-                        print(f"[BiliClient] Error processing message: {e}")
+                        print(f"[音效姬] 处理消息时发生错误: {e}")
             except Exception as e:
-                print(f"[BiliClient] Error in recvLoop: {e}")
+                print(f"[音效姬] 接收消息时发生错误: {e}")
                 await asyncio.sleep(1)  # Add delay before retry
 
     # 建立连接
     async def connect(self):
         addr, authBody = self.getWebsocketInfo()
-        print(addr, authBody)
         websocket = await websockets.connect(addr)
         # 鉴权
         await self.auth(websocket, authBody)
         return websocket
 
     def __enter__(self):
-        print("[BiliClient] enter")
+        print("[音效姬] 启动喵~！")
 
     def __exit__(self, type, value, trace):
         # 关闭应用
@@ -408,14 +421,15 @@ class BiliClient:
         headerMap = self.sign(params)
         r = requests.post(url=postUrl, headers=headerMap,
                           data=params, verify=False)
-        print("[BiliClient] end app success", params)
+        print("[音效姬] 应用关闭成功")
 
 
 if __name__ == '__main__':
     config = load_config()
     idCode = config['idCode']
     if not idCode:
-        print("[BiliClient] Error: No idCode configured. Please set it in the web interface first.")
+        print("[音效姬] 错误: 未配置idCode。请先在PeiZhiWenJian.exe的网页界面中设置 TnT")
+        time.sleep(5)
         
     try:
         cli = BiliClient(
@@ -427,7 +441,7 @@ if __name__ == '__main__':
         with cli:
             cli.run()
     except KeyboardInterrupt:
-        print("[BiliClient] Keyboard interrupt received, exiting...")
+        print("[音效姬] 收到键盘中断信号，正在退出...")
     except Exception as e:
-        print(f"[BiliClient] Error: {e}")
+        print(f"[音效姬] 错误: {e}")
         

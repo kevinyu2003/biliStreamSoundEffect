@@ -40,8 +40,8 @@ class Proto:
                 return
                 
             self.body = buf[16:self.packetLen]
-            if len(self.body) > 0 and self.ver == 0:
-                print("====> callback:", self.body.decode('utf-8'))
+            #if len(self.body) > 0 and self.ver == 0:
+                #print("====> callback:", self.body.decode('utf-8'))
         except struct.error as e:
             print(f"Error unpacking data: {e}")
     

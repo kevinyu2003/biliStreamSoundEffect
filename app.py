@@ -29,14 +29,18 @@ def load_config():
             'giftSound1': ['Ouye.wav'],
             'giftSound2': ['Hachimi.wav'],
             'giftSound3': ['Wow.wav'],
-            'messageSound': ['Manbo.wav'],
+            'messageSound': ['Manbo1.wav'],
             'superChatSound': ['SuperChat.wav'],
             'guardSound': ['Guard.wav'],
             'enterSound': ['Enter.wav'],
             'followSound': ['Follow.wav']
         },
         'volumeSettings': {},
-        'multiLikeEnabled': True
+        'multiLikeEnabled': True,
+        'probabilitySettings': {
+            'likeSound': 1.0,
+            'messageSound': 1.0
+        }
     }
 
 # Save configuration
@@ -94,9 +98,19 @@ def save_settings():
         sound_dir = ensure_sound_dir()
         config = load_config()
         
-        # Update idCode and multiLikeEnabled
+        # Update idCode, multiLikeEnabled, and probability settings
         config['idCode'] = request.form.get('idCode', '')
         config['multiLikeEnabled'] = request.form.get('multiLikeEnabled') == 'true'
+        
+        # Update probability settings
+        if 'probabilitySettings' not in config:
+            config['probabilitySettings'] = {}
+        like_prob = request.form.get('likeProbability')
+        message_prob = request.form.get('messageProbability')
+        if like_prob is not None and like_prob != '':
+            config['probabilitySettings']['likeSound'] = float(like_prob)
+        if message_prob is not None and message_prob != '':
+            config['probabilitySettings']['messageSound'] = float(message_prob)
         
         # Get current sound mappings from config
         sound_mappings = config.get('soundMappings', {})
@@ -153,34 +167,35 @@ def serve_sound(filename):
     return send_from_directory(sound_dir, filename)
 
 @app.route('/save-volume', methods=['POST'])
-def save_volume():
+@app.route('/save-probability', methods=['POST'])
+def save_probability():
     try:
         config = load_config()
         data = request.json
-        filename = data.get('filename')
-        volume = data.get('volume')
+        prob_type = data.get('type')
+        probability = data.get('probability')
         
-        if not filename or volume is None:
+        if not prob_type or probability is None:
             return jsonify({
                 'success': False,
-                'message': '缺少文件名或音量设置'
+                'message': '缺少音效类型或概率设置'
             })
         
-        # Update volume settings
-        if 'volumeSettings' not in config:
-            config['volumeSettings'] = {}
-        config['volumeSettings'][filename] = int(volume)
+        # Update probability settings
+        if 'probabilitySettings' not in config:
+            config['probabilitySettings'] = {}
+        config['probabilitySettings'][prob_type] = float(probability)
         save_config(config)
         
         return jsonify({
             'success': True,
-            'message': '音量设置已保存'
+            'message': '概率设置已保存'
         })
     
     except Exception as e:
         return jsonify({
             'success': False,
-            'message': f'保存音量设置时发生错误：{str(e)}'
+            'message': f'保存概率设置时发生错误：{str(e)}'
         })
 
 # Flag to track if browser has been opened

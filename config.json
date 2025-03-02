@@ -1,5 +1,5 @@
 {
-    "idCode": "123123",
+    "idCode": "",
     "soundMappings": {
         "likeSound": [
             "Waga.wav"
@@ -14,21 +14,17 @@
             "Wow.wav"
         ],
         "messageSound": [
-            "Manbo.wav"
+            "Manbo1.wav"
         ],
-        "superChatSound": [
-            "SuperChat.wav"
-        ],
-        "guardSound": [
-            "Guard.wav"
-        ],
-        "enterSound": [
-            "Enter.wav"
-        ],
-        "followSound": [
-            "Follow.wav"
-        ]
+        "superChatSound": [],
+        "guardSound": [],
+        "enterSound": [],
+        "followSound": []
     },
     "volumeSettings": {},
-    "multiLikeEnabled": true
+    "multiLikeEnabled": true,
+    "probabilitySettings": {
+        "likeSound": 1.0,
+        "messageSound": 1.0
+    }
 }

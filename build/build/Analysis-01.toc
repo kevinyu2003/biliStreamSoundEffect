@@ -20,10 +20,6 @@
  [('config.json',
    'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\config.json',
    'DATA'),
-  ('sound\\Hachimi.wav',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Hachimi.wav',
-   'DATA'),
   ('sound\\Hachimi_1739935139.wav',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Hachimi_1739935139.wav',
@@ -32,17 +28,9 @@
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Manbo.wav',
    'DATA'),
-  ('sound\\Manbo1.wav',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Manbo1.wav',
-   'DATA'),
   ('sound\\Manbo1_1739935203.wav',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Manbo1_1739935203.wav',
-   'DATA'),
-  ('sound\\Ouye.wav',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Ouye.wav',
    'DATA'),
   ('sound\\Ouye_1739935127.wav',
    'C:\\Users\\Mobius '
@@ -56,10 +44,6 @@
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Waga_1739935227.wav',
    'DATA'),
-  ('sound\\Wow.wav',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Wow.wav',
-   'DATA'),
   ('sound\\Wow_1739935148.wav',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Wow_1739935148.wav',
@@ -72,17 +56,12 @@
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\test.wav',
    'DATA'),
-  ('sound\\wait wait wait wait what the hell_哔哩哔哩_bilibili (1).mp3',
-   'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\wait '
-   'wait wait wait what the hell_哔哩哔哩_bilibili (1).mp3',
+  ('sound\\太鼓.mp3',
+   'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\太鼓.mp3',
    'DATA'),
-  ('sound\\wait wait wait wait what the hell_哔哩哔哩_bilibili.mp3',
-   'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\wait '
-   'wait wait wait what the hell_哔哩哔哩_bilibili.mp3',
-   'DATA'),
-  ('sound\\信赖触摸.wav',
+  ('sound\\太鼓_1740629916.mp3',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\信赖触摸.wav',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\太鼓_1740629916.mp3',
    'DATA')],
  '3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit '
  '(AMD64)]',
@@ -372,10 +351,10 @@
   ('multiprocessing',
    'C:\\Python313\\Lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
-  ('tracemalloc', 'C:\\Python313\\Lib\\tracemalloc.py', 'PYMODULE'),
   ('_py_abc', 'C:\\Python313\\Lib\\_py_abc.py', 'PYMODULE'),
-  ('stringprep', 'C:\\Python313\\Lib\\stringprep.py', 'PYMODULE'),
+  ('tracemalloc', 'C:\\Python313\\Lib\\tracemalloc.py', 'PYMODULE'),
   ('_colorize', 'C:\\Python313\\Lib\\_colorize.py', 'PYMODULE'),
+  ('stringprep', 'C:\\Python313\\Lib\\stringprep.py', 'PYMODULE'),
   ('threading', 'C:\\Python313\\Lib\\threading.py', 'PYMODULE'),
   ('_threading_local', 'C:\\Python313\\Lib\\_threading_local.py', 'PYMODULE'),
   ('soundfile',
@@ -1885,37 +1864,25 @@
    'EXTENSION'),
   ('_overlapped.pyd', 'C:\\Python313\\DLLs\\_overlapped.pyd', 'EXTENSION'),
   ('_asyncio.pyd', 'C:\\Python313\\DLLs\\_asyncio.pyd', 'EXTENSION'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
+  ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-stdio-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
@@ -1925,14 +1892,26 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
-  ('VCRUNTIME140.dll', 'C:\\Python313\\VCRUNTIME140.dll', 'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
+  ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
+  ('VCRUNTIME140.dll', 'C:\\Python313\\VCRUNTIME140.dll', 'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-utility-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
@@ -1943,72 +1922,24 @@
    'Toolkit\\api-ms-win-crt-private-l1-1-0.dll',
    'BINARY'),
   ('VCRUNTIME140_1.dll', 'C:\\Python313\\VCRUNTIME140_1.dll', 'BINARY'),
-  ('libcrypto-3.dll', 'C:\\Python313\\DLLs\\libcrypto-3.dll', 'BINARY'),
   ('libssl-3.dll', 'C:\\Python313\\DLLs\\libssl-3.dll', 'BINARY'),
+  ('libcrypto-3.dll', 'C:\\Python313\\DLLs\\libcrypto-3.dll', 'BINARY'),
   ('libffi-8.dll', 'C:\\Python313\\DLLs\\libffi-8.dll', 'BINARY'),
   ('ucrtbase.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\ucrtbase.dll',
    'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+  ('api-ms-win-core-datetime-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-memory-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
@@ -2018,17 +1949,73 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
+  ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
@@ -2038,26 +2025,14 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY')],
  [],
  [],
  [('config.json',
    'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\config.json',
-   'DATA'),
-  ('sound\\Hachimi.wav',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Hachimi.wav',
    'DATA'),
   ('sound\\Hachimi_1739935139.wav',
    'C:\\Users\\Mobius '
@@ -2067,17 +2042,9 @@
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Manbo.wav',
    'DATA'),
-  ('sound\\Manbo1.wav',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Manbo1.wav',
-   'DATA'),
   ('sound\\Manbo1_1739935203.wav',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Manbo1_1739935203.wav',
-   'DATA'),
-  ('sound\\Ouye.wav',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Ouye.wav',
    'DATA'),
   ('sound\\Ouye_1739935127.wav',
    'C:\\Users\\Mobius '
@@ -2091,10 +2058,6 @@
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Waga_1739935227.wav',
    'DATA'),
-  ('sound\\Wow.wav',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Wow.wav',
-   'DATA'),
   ('sound\\Wow_1739935148.wav',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\Wow_1739935148.wav',
@@ -2107,17 +2070,12 @@
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\test.wav',
    'DATA'),
-  ('sound\\wait wait wait wait what the hell_哔哩哔哩_bilibili (1).mp3',
-   'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\wait '
-   'wait wait wait what the hell_哔哩哔哩_bilibili (1).mp3',
+  ('sound\\太鼓.mp3',
+   'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\太鼓.mp3',
    'DATA'),
-  ('sound\\wait wait wait wait what the hell_哔哩哔哩_bilibili.mp3',
-   'C:\\Users\\Mobius Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\wait '
-   'wait wait wait what the hell_哔哩哔哩_bilibili.mp3',
-   'DATA'),
-  ('sound\\信赖触摸.wav',
+  ('sound\\太鼓_1740629916.mp3',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\信赖触摸.wav',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\sound\\太鼓_1740629916.mp3',
    'DATA'),
   ('_soundfile_data\\COPYING',
    'C:\\Users\\Mobius '
@@ -2135,105 +2093,105 @@
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\certifi\\py.typed',
    'DATA'),
-  ('numpy-2.2.3.dist-info\\DELVEWHEEL',
+  ('numpy-2.2.3.dist-info\\entry_points.txt',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\DELVEWHEEL',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info\\WHEEL',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\WHEEL',
-   'DATA'),
-  ('MarkupSafe-3.0.2.dist-info\\INSTALLER',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\INSTALLER',
-   'DATA'),
-  ('numpy-2.2.3.dist-info\\METADATA',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\METADATA',
-   'DATA'),
-  ('websockets-15.0.dist-info\\METADATA',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\METADATA',
-   'DATA'),
-  ('numpy-2.2.3.dist-info\\LICENSE.txt',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\LICENSE.txt',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info\\INSTALLER',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\INSTALLER',
-   'DATA'),
-  ('websockets-15.0.dist-info\\INSTALLER',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\INSTALLER',
-   'DATA'),
-  ('websockets-15.0.dist-info\\RECORD',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\RECORD',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info\\LICENSE.txt',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\LICENSE.txt',
-   'DATA'),
-  ('websockets-15.0.dist-info\\LICENSE',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\LICENSE',
-   'DATA'),
-  ('MarkupSafe-3.0.2.dist-info\\top_level.txt',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\top_level.txt',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\entry_points.txt',
    'DATA'),
   ('MarkupSafe-3.0.2.dist-info\\METADATA',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\METADATA',
    'DATA'),
-  ('MarkupSafe-3.0.2.dist-info\\LICENSE.txt',
+  ('MarkupSafe-3.0.2.dist-info\\INSTALLER',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\LICENSE.txt',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\INSTALLER',
    'DATA'),
-  ('werkzeug-3.1.3.dist-info\\METADATA',
+  ('websockets-15.0.dist-info\\LICENSE',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\METADATA',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\LICENSE',
    'DATA'),
-  ('numpy-2.2.3.dist-info\\RECORD',
+  ('websockets-15.0.dist-info\\INSTALLER',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\RECORD',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\INSTALLER',
    'DATA'),
-  ('MarkupSafe-3.0.2.dist-info\\RECORD',
+  ('werkzeug-3.1.3.dist-info\\LICENSE.txt',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\RECORD',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\LICENSE.txt',
    'DATA'),
-  ('websockets-15.0.dist-info\\top_level.txt',
+  ('numpy-2.2.3.dist-info\\DELVEWHEEL',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\top_level.txt',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\DELVEWHEEL',
    'DATA'),
   ('numpy-2.2.3.dist-info\\WHEEL',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\WHEEL',
    'DATA'),
-  ('MarkupSafe-3.0.2.dist-info\\WHEEL',
+  ('MarkupSafe-3.0.2.dist-info\\LICENSE.txt',
    'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\WHEEL',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info\\RECORD',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\RECORD',
-   'DATA'),
-  ('numpy-2.2.3.dist-info\\entry_points.txt',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\entry_points.txt',
-   'DATA'),
-  ('numpy-2.2.3.dist-info\\INSTALLER',
-   'C:\\Users\\Mobius '
-   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\INSTALLER',
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\LICENSE.txt',
    'DATA'),
   ('websockets-15.0.dist-info\\REQUESTED',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\REQUESTED',
    'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\RECORD',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\RECORD',
+   'DATA'),
+  ('numpy-2.2.3.dist-info\\METADATA',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\METADATA',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\INSTALLER',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\INSTALLER',
+   'DATA'),
   ('websockets-15.0.dist-info\\WHEEL',
    'C:\\Users\\Mobius '
    'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\WHEEL',
+   'DATA'),
+  ('numpy-2.2.3.dist-info\\RECORD',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\RECORD',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\RECORD',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\RECORD',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\METADATA',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-15.0.dist-info\\METADATA',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\METADATA',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\WHEEL',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-15.0.dist-info\\RECORD',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\RECORD',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info\\WHEEL',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\werkzeug-3.1.3.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-15.0.dist-info\\top_level.txt',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\websockets-15.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\top_level.txt',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('numpy-2.2.3.dist-info\\LICENSE.txt',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('numpy-2.2.3.dist-info\\INSTALLER',
+   'C:\\Users\\Mobius '
+   'Yu\\Desktop\\Texas\\biliStreamSoundEffect\\venv\\Lib\\site-packages\\numpy-2.2.3.dist-info\\INSTALLER',
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\Mobius '
